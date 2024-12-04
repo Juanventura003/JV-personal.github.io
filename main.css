@@ -47,7 +47,7 @@ ul {
 .about-button, .projects-button, .contact-button{
     display: inline-block;       
     padding: 20px 20px;
-    background-color: #333;
+    background-color: black;
     text-decoration: none;      
     border-radius: 10px;
     cursor: pointer;
