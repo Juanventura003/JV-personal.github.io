@@ -37,7 +37,7 @@ a:visited {
 }
 
 a:hover, a:active {
-    color: lightgrey;
+    color: black;
 }
 ul {
     list-style-type: none; 
@@ -48,6 +48,7 @@ ul {
     display: inline-block;       
     padding: 20px 20px;
     background-color: black;
+    color: white;
     text-decoration: none;      
     border-radius: 10px;
     cursor: pointer;
