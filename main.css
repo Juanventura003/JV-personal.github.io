@@ -33,11 +33,11 @@ a {
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 a:hover, a:active {
-    color: black;
+    color: white;
 }
 ul {
     list-style-type: none; 
