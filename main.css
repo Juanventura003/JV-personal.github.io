@@ -33,11 +33,11 @@ a {
 }
 
 a:visited {
-    color: white;
+    color: none;
 }
 
 a:hover, a:active {
-    color: white;
+    color: lightgrey;
 }
 ul {
     list-style-type: none; 
@@ -47,8 +47,7 @@ ul {
 .about-button, .projects-button, .contact-button{
     display: inline-block;       
     padding: 20px 20px;
-    background-color: black;
-    color: white;
+    background-color: #333;
     text-decoration: none;      
     border-radius: 10px;
     cursor: pointer;
@@ -274,6 +273,85 @@ input, textarea {
     margin-right: 10px;
 }
  
+.about-me-des {
+    font-size: 18px;          
+    color: #333;    
+    background-color: #f4f4f4; 
+    padding: 50px;           
+    border-radius: 20px;     
+    max-width: 700px;        
+    margin: 50px auto;         
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin-top: 100px;
+}
 
+.about-me-des h1 {
+    font-size: 32px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
+.about-me-des p {
+    margin-bottom: 20px;
+}
 
+/* Skills Section */
+.skills-interests {
+    font-size: 18px;          
+    color: #333;    
+    background-color: #f4f4f4; 
+    padding: 50px 30px;           
+    border-radius: 20px;     
+    max-width: 900px;        
+    margin: 50px auto;         
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin-top: 100px;
+}
+
+.skills-interests h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-category {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 30px;
+}
+
+.skill-category h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.skill-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-category li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/
+.skill-category ul li:hover {
+    color: #007BFF;
+    cursor: pointer;
+}
